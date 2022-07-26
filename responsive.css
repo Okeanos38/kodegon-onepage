@@ -1,0 +1,45 @@
+/* Mobile Css */
+@media only screen and (max-width: 1800px) {
+    
+
+}
+/* Mobile Css */
+@media only screen and (max-width: 768px) {
+    .container-fluid{
+        padding-right:25px;
+        padding-left:25px;
+    }
+    /*Banner*/
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        justify-content: center;
+        padding-left: 0%;
+    }
+    .site-navbar .site-navigation .site-menu{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    .site-navbar .site-navigation .site-menu>li>a{
+        width: 100%;
+        text-align: center;
+    }
+    .content .content-text{
+        height: 200px;
+        overflow: hidden;
+    }
+    .pm-0{
+        padding: 0!important;
+        overflow: hidden;
+    }
+    .object-fit{
+        height: 100%;
+        object-fit: cover;
+    }
+    .swiper {
+        height: 400px;
+    }
+
+}
